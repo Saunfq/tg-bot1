@@ -1,2 +1,8 @@
-def hello(name):
-    return f"Привет,{name}"
+from __future__ import annotations
+
+
+def hello(name: str):
+    return (f"Привет,{name}", 12)
+
+
+print(hello("hi"))

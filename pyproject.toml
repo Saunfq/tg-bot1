@@ -3,6 +3,6 @@ line-length = 88
 target-version = ["py311"]
 
 [tool.ruff]
-line-length = 88
-select = ["E", "F", "I", "UP"]  # Основные правила
-ignore = ["E203"]               # Игнорируемые ошибки
+lint.select = ["E", "F", "I", "UP"]  # Основные правила
+lint.ignore = ["E203"]               # Игнорируемые ошибки
+lint.isort.required-imports = ["from __future__ import annotations"]  # Для сортировки импортов
