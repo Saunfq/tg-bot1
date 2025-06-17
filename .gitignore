@@ -1,2 +1,3 @@
 .vscode/
 venv/
+PRIVATE_INFO.py
