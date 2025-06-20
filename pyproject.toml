@@ -4,5 +4,5 @@ target-version = ["py311"]
 
 [tool.ruff]
 lint.select = ["E", "F", "I", "UP"]  # Основные правила
-lint.ignore = ["E203"]               # Игнорируемые ошибки
+lint.ignore = ["E203", "E501"]               # Игнорируемые ошибки
 lint.isort.required-imports = ["from __future__ import annotations"]  # Для сортировки импортов
