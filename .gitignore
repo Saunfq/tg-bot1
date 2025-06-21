@@ -1,3 +1,4 @@
 .vscode/
 venv/
 PRIVATE_INFO.py
+__pycache__/
